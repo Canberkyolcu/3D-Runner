@@ -303,7 +303,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerTransform: {fileID: 2011762910}
-  offset: {x: 0, y: 2, z: -5}
+  offSet: {x: 0, y: 2, z: -3}
 --- !u!81 &93574395
 AudioListener:
   m_ObjectHideFlags: 0
@@ -362,13 +362,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 93574393}
-  m_LocalRotation: {x: 0.03676334, y: -0, z: -0, w: 0.999324}
+  m_LocalRotation: {x: 0.13294835, y: 0, z: 0, w: 0.99112296}
   m_LocalPosition: {x: 1.86, y: 4.93, z: -103.69}
   m_LocalScale: {x: 1, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 4.214, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 15.28, y: 0, z: 0}
 --- !u!1001 &117159052
 PrefabInstance:
   m_ObjectHideFlags: 0

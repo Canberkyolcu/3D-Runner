@@ -13,7 +13,7 @@ public class NewBehaviourScript : MonoBehaviour
     private float moveX;
     public Vector3 respawnPoint;
     public GameManager gameManager;
-    public GameObject gameObjectwin1;
+    public GameObject gameObjectWin1;
 
     private void Awake()
     {
@@ -64,7 +64,7 @@ public class NewBehaviourScript : MonoBehaviour
 
         if (collision.collider.CompareTag("Finish"))
         {
-            gameObjectwin1.SetActive(true);
+            gameObjectWin1.SetActive(true);
             Destroy(gameObject);
         }
 
